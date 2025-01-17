@@ -1,16 +1,16 @@
 {
   "name": "query-with-cache",
-  "version": "1.0.0",
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
-  "types": "dist/index.d.ts",
+  "version": "1.0.1",
+  "description": "Lightweight caching solution for async queries",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "tsup src/index.ts",
+    "build": "tsup",
     "test": "jest"
   },
   "author": "Thales Pereira <thalesfp@gmail.com>",
   "license": "ISC",
-  "description": "",
   "peerDependencies": {
     "fast-deep-equal": "^3.1.3",
     "react-native-mmkv": "^3.2.0"
